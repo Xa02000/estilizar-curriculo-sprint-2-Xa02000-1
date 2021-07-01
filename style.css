@@ -1,7 +1,18 @@
 .clear {
+	border: 1px solid #dedede;
 	clear: both;
+    
 }
+.mainDetails .clear{
+	border: 2px solid #cf8a05;
 
+}
+a:link{
+	color:#181818;
+}
+img{
+	border-radius: 50%;
+}
 #headshot {
 	width: 12.5%;
 	float: left;
@@ -10,18 +21,40 @@
 
 #name {
 	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	color:black;
+	
 }
 
 #contactDetails {
 	float: right;
+	color: #181818;
+	font-family: Arial, Helvetica, sans-serif ;
+	text-decoration:none;
 }
 
 .sectionTitle {
 	float: left;
 	width: 25%;
+	color:#cf8a05;
 }
 
 .sectionContent {
 	float: right;
 	width: 72.5%;
+	color:#444444;
 }
+h2{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.subDetails{
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+}
+
+
